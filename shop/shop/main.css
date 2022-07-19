@@ -1,0 +1,214 @@
+.header{
+    position: relative;
+    display: flex;
+    min-height: 56px;
+    max-height: 56px;
+    justify-content: space-between;
+    box-shadow: 1px 1px 2px;
+    width: 100%;
+    top: 0;
+    right: 0;
+}
+.header-left{
+    display: inline-flex;
+    margin-left: 20px ;
+}
+.header-logo{
+    padding-bottom: 10px;
+    display: flex;
+    margin-top: 8px;
+}
+img{
+    height: 30px;
+    width: 85px;
+    display: block;
+}
+.header-text{
+    margin-left: 10px;
+    margin-top: 15px;
+    
+    
+}
+.header-text a{
+    text-decoration: none;
+    font-size: 1.8rem;
+}
+.header-right{
+    display: flex  ;
+    position: relative;
+    display: inline-flex;
+    margin-right: 20px;
+    margin-top: 20px;    
+}
+.header-main{
+    margin-right: 10px;
+
+}
+.header-main a{
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+.main-text{
+    margin-right: 0px;
+}
+.btn{
+   
+}
+
+.ruler{
+    border-right: solid 1px;
+    height: 25px;
+    margin-right: 20px;
+    
+}
+.header-f{
+   margin-right:20px ;
+}
+.header-f i{
+    font-size: 2.0rem;
+    background-color: aliceblue;
+}
+.header-in i{
+    font-size: 2.0rem;
+    background-color: aliceblue;
+}
+.container{
+    box-sizing: border-box;
+    margin-top: 100px;
+    justify-content: space-around;
+}
+.box{
+    display: flex;
+}
+.container-left{
+    margin-left: 50px;
+}
+.titlle{
+    padding-top: 20px;
+    font-size: 3.4rem;
+    color: orangered;
+    font-weight: 550;
+}
+.main{
+    margin-top: 10px;
+    font-size: 1.8rem;
+    width: 370px;
+    color: #666666;
+}
+.container-img{
+    margin-top: 30px;
+    width: 552px;
+    height: 200px;
+}
+.container-img img{
+    width: 440px;
+    height: 200px;
+} 
+
+.container-right{
+    margin-left: 120px;
+}
+.form{
+    width: 400px;
+    height: 550px;
+    box-shadow: 1px 2px 20px;
+    border-radius: 10px;
+}
+.form-singin {
+    text-align: center;
+    font-size: 2.7rem;
+    padding-top:30px;
+    padding-left: 30px;
+    font-weight: 450;
+}
+.form-name{
+    margin-top: 30px;
+    margin-left:20px ;
+}
+input{
+    width: 95%;
+    padding: 15px 15px;
+    border-radius: 10px;
+    border: solid 1px;
+    font-size: 1.6rem;
+}
+.form-ps{
+    margin-top: 30px;
+    margin-left:20px ;
+}
+.form-remember{
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.form-remember.text{
+    padding-left: 20px;
+    font-size: 1.8rem;
+}
+.text{
+    font-size: 1.5rem;
+}
+.form-remember a{
+    margin-left: 180px;
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+.form-logon{
+    margin-top: 30px;
+    width: 90%;
+    margin-left: 20px;
+    border-radius: 10px;
+    background-color: orangered;
+    color: aliceblue;
+    font-weight: 300;
+    padding: 15px;
+
+}
+.form-logon span{
+    margin-left: 40%;
+    color: aliceblue;
+    font-size: 1.4rem;
+}
+.form-dk{
+    margin-top: 30px;
+    margin-left: 90px;
+}
+span{
+    font-size: 1.4rem;
+    color: #666666;
+
+}
+a{
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+.form-ruler{
+    margin-top: 30px;
+    margin-left: 30px;
+    display: flex;
+}
+.ruler-left{
+    width: 40%;
+    background-color: #666666;
+    height: 1px;
+}
+.ruler-betw{
+    padding:0px 20px;
+    margin-top: -8px;
+}
+.ruler-right{
+    width: 40%;
+    background-color: #666666;
+    height: 1px;
+}
+.btn{
+    margin-top: 30px;
+    width: 90%;
+    margin-left: 25px;
+    background-color: none;
+    padding: 10px ;
+    border-radius: 10px;
+}
+.VL_tt{
+    margin-left: 50px;
+    margin-top: 30px;
+}
